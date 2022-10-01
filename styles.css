@@ -1,37 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
 
-*{
+* {
     font-family: 'Roboto', sans-serif;
 }
-.header{
+
+.header {
     display: flex;
     padding: 10px;
-    margin:auto;
+    margin: auto;
     align-items: baseline;
     background-color: #1F2937;
-    color: #E5E7EB;
+    color: #F9FAF8;
+    font-size: 24px;
 }
-ul{
+
+ul {
     display: flex;
     margin-left: auto;
     list-style: none;
     margin-right: 10px;
     gap: 10px;
-    
+
 }
-a{
+
+button {
+    background-color: #3882F6;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 12px;
+    width: 50%;
+    color: white;
+}
+
+a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: lightgray;
+    font-size: 18px;
 }
-.section1{
-    display:flex;
+
+.section1 {
+    display: flex;
     background-color: #1F2937;
-    flex-direction: column;
+    flex-direction: row;
     color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 10px 0;
+
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+
 }
-.h1{
+
+.h1 {
     font-size: 48px;
     font-weight: bolder;
-    color:#F9FAF8;
+    color: #F9FAF8;
+}
 
+.section1text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+
+}
+
+.img1 {
+    flex-basis: 40%;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.section2 {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.section2info {
+    display: flex;
+    max-width: 200px;
+    flex-direction: column;
+}
+
+.section2h {
+    display: flex;
+    justify-content: center;
+}
+
+.section3 {
+    display: flex;
+    padding: 100px;
+    background-color: #E5E7EB;
+    flex-direction: column;
+}
+
+.quote {
+    text-align: end;
+
+}
+
+.section4 {
+    display: flex;
+    font-size: 18px;
+    flex: 0 0 auto;
+    margin: 80px;
+    background-color: #3882F6;
+    border-radius: 4px;
+    justify-content: baseline;
+    align-items: baseline;
+    color: #E5E7EB;
+    flex-wrap: wrap;
+}
+
+.button2 {
+    display: flex;
+    flex-direction: row;
+    border-color: #E5E7EB;
+    display: inline-block;
+    border: 2px solid #E8E8E8;
+    width: 20%;
+    margin: 10px;
+    margin-left: auto;
+
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
 }
